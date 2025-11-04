@@ -12,6 +12,7 @@ class DentalWindow:
         self.window.update_idletasks()
         self.window.update()
 
+        print("hello world!")
         # Try dark title bar (Windows 10/11)
         try:
             from ctypes import windll, byref, sizeof, c_int
